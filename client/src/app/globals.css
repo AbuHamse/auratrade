@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-auratrade-void: #05060A;
+  --color-auratrade-card: #0D111A;
+  --color-auratrade-border: #1E2538;
+  --color-auratrade-indigo: #221F3B;
+  --color-auratrade-purple: #4A3E6E;
+  --color-auratrade-lavender: #8A7FA8;
+  --color-auratrade-success: #10B981;
+  --color-auratrade-danger: #EF4444;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-auratrade-void);
+    color: #F3F4F6;
+    font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+    overflow-x: hidden;
+  }
+}
